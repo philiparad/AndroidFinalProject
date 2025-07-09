@@ -1,0 +1,1 @@
+The project deals with a task management application that includes a view of tasks, a login screen, dark mode settings, a personal profile screen with a photo, statistics, and an about screen. I used Room to manage an internal database and SharedPreferences to save user settings. I implemented each component in Java using Fragments, RecyclerView and ViewModel.

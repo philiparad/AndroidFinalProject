@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidFinalProject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email or Phone</string>
+    <string name="login">Login</string>
+    <string name="show_name">Show name</string>
+
+    <string-array name="user_types">
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>Guest</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
