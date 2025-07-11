@@ -21,7 +21,7 @@ public class StatsFragment extends Fragment {
         taskViewModel.getAllTasks().observe(getViewLifecycleOwner(), tasks -> {
             int total = tasks.size();
             long completed = tasks.stream().filter(t -> t.isCompleted).count();
-            statsText.setText("סה"כ משימות: " + total + " | הושלמו: " + completed);
+            statsText.setText("סה\"כ משימות: " + total + " | הושלמו: " + completed);
         });
 
         return view;
